@@ -1,0 +1,148 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+
+    background-image: url("jojo3.png");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 80%;
+    height: 600px;
+
+    #a,
+    #b,
+    #c {
+        border-radius: 20px;
+    }
+}
+
+#a {
+    width: 33%;
+    height: 600px;
+    float: left;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px;
+    background-color: rgb(66, 62, 124);
+
+}
+
+#b {
+    width: 33%;
+    height: 600px;
+    float: left;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px;
+    background-color: rgb(0, 0, 0);
+}
+#b h1,
+#b p {
+    color: #fff;
+}
+#b a {
+    color: #fff;
+}
+
+#c {
+    width: 33%;
+    height: 600px;
+    float: left;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 15px;
+    background-color: rgb(247, 221, 49);
+
+
+}
+
+p {
+    padding: 2%;
+}
+
+h1 {
+    padding: 2%;
+    text-align: center;
+}
+
+
+img {
+    padding: 2%;
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#a .btn  {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(66, 62, 124);
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-top: 18px;
+    display: block;
+    transition: all 0.3s ease;
+}
+#c .btn  {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(247, 221, 49);;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-top: 18px;
+    display: block;
+    transition: all 0.3s ease;
+}
+#b .btn  {
+    width: 150px;
+    height: 30px;
+    background-color: #000000;
+    text-align: center;
+    border: 2px solid #4d4a4a;
+    border-radius: 20px;
+    margin-top: 18px;
+    display: block;
+    transition: all 0.3s ease;
+}
+#a img{
+    box-shadow: 3px 3px 10px #040623;
+}
+#b img{
+    box-shadow: 3px 3px 10px #737373;
+}
+#c img{
+    box-shadow: 3px 3px 10px #453f0e;
+}
+
+.btn:hover {
+    background-color: #504242;
+    border-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #a,
+    #b,
+    #c {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        margin-bottom: 20px;
+    }
+
+}
